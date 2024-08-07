@@ -11,4 +11,4 @@ Usage: `cascap 192.168.1.70`, where 192.168.1.70 - ths scrambler ip-address.
 The second parameter can be used to add filtering by a specific port:
 `cascap 192.168.1.70 42000`
 
-[image]https://github.com/unidiag/cascap/blob/main/Screenshot.jpg[/image]
+(https://github.com/unidiag/cascap/blob/main/Screenshot.jpg)
