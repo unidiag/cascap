@@ -6,4 +6,4 @@ Copy the binary file to: `/usr/bin/..`
 
 Usage: `cascap 192.168.1.70`, where 192.168.1.70 - ths scrambler ip-address.
 
-***cascap*** must be launched on the computer where the CAS is installed.
+**cascap** must be launched on the computer where the CAS is installed.
