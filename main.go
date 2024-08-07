@@ -68,7 +68,7 @@ func main() {
 	// Создайте пакетный источник
 	packetSource := gopacket.NewPacketSource(handle, handle.LinkType())
 
-	// Читайте пакеты в бесконечном цикле
+	// Читаем пакеты в бесконечном цикле
 	for packet := range packetSource.Packets() {
 		timestamp := packet.Metadata().Timestamp.Format("15:04:05.000")
 		// Попробуйте извлечь слой TCP
